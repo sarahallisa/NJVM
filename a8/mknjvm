@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo gcc -g -Wall -std=c99 -pedantic -I bigint/build/include -L bigint/build/lib njvm.c operations.c program.c run.c debugger.c support.c gb.c -lbigint -o njvm 
+gcc -g -Wall -std=c99 -pedantic -I bigint/build/include -L bigint/build/lib njvm.c operations.c program.c run.c debugger.c support.c gb.c -lbigint -o njvm 
